@@ -73,7 +73,7 @@ function calculateTotal() {
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
     if (diffDays > 0) {
-      const ratePerNight = 2200; // Updated rate
+      const ratePerNight = 700; // Updated rate
       const totalCost = diffDays * ratePerNight;
       totalSpan.textContent = totalCost;
     } else {
